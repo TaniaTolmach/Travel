@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+   max-width: calc(1440px + 16px+2);
+   padding: 0 16px;
+   margin: 0 auto;
+    
+
+}
+.main {
+    width: 100vw;
+    height: 789px;
+    background-image: url(./Rectangle\ 1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+.head {
+    width: 100vw;
+    height: 85px;
+    position: static;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-top: 27px;
+   
+}
+
+.head--menu {
+    width: 303px;
+    height: 17px; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;   
+    justify-content: space-between;
+    margin-left: 777px;
+ 
+}
+.head--menu--main {
+    color: #FFC700;
+    font-family: Montserrat;
+    font-style: Medium;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    line-height: 100%; 
+    vertical-align: Top;
+    text-decoration: none;
+}
+.head--menu--info {
+    color: white;
+    font-family: Montserrat;
+    font-style: Medium;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    line-height: 100%; 
+    vertical-align: Top;
+    text-decoration: none;
+}
+.travel--with--us {
+    width: 100vw;
+    height: 198px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+    justify-content: space-around;  
+    margin-top: 152px;
+    
+}
+.travel--title1 {
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-style: Bold;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 88px;
+    line-height: 100%; 
+    text-transform: uppercase;
+    position: relative;
+}
+.travel--title2 {
+    position: absolute;
+    left: 735px;
+    bottom: 345px;
+}
+.travel--title3 {
+    margin-top: 20px;
+ 
+}
+.media--social {
+    width: 26.19px;
+    height: 105.51px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap; 
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.button1 {
+    width: 230px;
+    height: 50px;
+    color: #FFFFFF;
+    background-color: rgba(4, 153, 221, 1);
+    border-radius: 50cm;
+    border: none;
+    margin-top: 60px;
+    margin-left: 180px;
+   
+}
+.button1--text {
+    color: #FFFFFF;
+    text-decoration: none; 
+      
+}
+.button1--text::after {
+    content: url(./Arrow\ 1.png);
+}
+
