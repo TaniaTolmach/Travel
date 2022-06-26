@@ -1,0 +1,71 @@
+.content--excursion {
+    max-width: calc(1440px + 16px+2);
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+.excursion {
+    width: 100vw;
+    height: 29px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.excursion--head {
+    width: 311px;
+    height: 29px;
+    margin-left: 160px;
+    color: #0499DD;
+    font-family: Montserrat;
+    line-height: 29px;
+    line-height: 100%; 
+    vertical-align: Top;
+    text-align: left;
+}
+.excursion--button {
+    border: none;
+    background-color: none;
+    margin-right: 160px;
+}
+.excursion--button--text {
+    width: 85px;
+    height: 15px;
+    color: #282828;
+    font-family: Montserrat;
+    font-style: Medium;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    line-height: 100%; 
+    vertical-align: Top;
+    text-align: left;
+}
+.excursion--info {
+    width: 100vw;
+    height: 497px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.excursion--info--sochi {
+    width: 360px;
+    height: 497px;
+    background-image: url(./pictures/Rectangle\ 13.png);
+
+}
+.name--tour {
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-style: Medium;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    line-height: 100%; 
+    vertical-align: Top;
+    text-align: left;
+}

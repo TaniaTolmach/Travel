@@ -13,10 +13,11 @@
 }
 .main {
     width: 100vw;
-    height: 789px;
+    height: 1060px;
     background-image: url(./Rectangle\ 1.png);
     background-size: contain;
     background-repeat: no-repeat;
+    position: relative;
    
 }
 .head {
@@ -29,6 +30,9 @@
     padding-top: 27px;
    
 }
+.Logo--head {
+    margin-left: 160px;
+}
 
 .head--menu {
     width: 303px;
@@ -38,6 +42,7 @@
     flex-wrap: nowrap;   
     justify-content: space-between;
     margin-left: 777px;
+    list-style-type: none;
  
 }
 .head--menu--main {
@@ -85,8 +90,8 @@
 }
 .travel--title2 {
     position: absolute;
-    left: 735px;
-    bottom: 345px;
+    left: 720px;
+    bottom: 465px;
 }
 .travel--title3 {
     margin-top: 20px;
@@ -105,12 +110,15 @@
     width: 230px;
     height: 50px;
     color: #FFFFFF;
-    background-color: rgba(4, 153, 221, 1);
+    background-color: rgba(23, 193, 188, 1);
     border-radius: 50cm;
     border: none;
     margin-top: 60px;
     margin-left: 180px;
    
+}
+.button1:hover{
+    border: 3px solid rgba(4, 153, 221, 1);
 }
 .button1--text {
     color: #FFFFFF;
@@ -120,4 +128,14 @@
 .button1--text::after {
     content: url(./Arrow\ 1.png);
 }
+.travel--pictures1 {
+    position: absolute;
+    left: 825px;
+    top: 675px;
 
+}
+.travel--pictures2 {
+    position: absolute;
+    left: 1218px;
+    top: 675px;
+}
