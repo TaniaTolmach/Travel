@@ -30,6 +30,9 @@
     background-color: none;
     margin-right: 160px;
 }
+.excursion--button:hover {
+    border: 3px solid #0499DD;
+}
 .excursion--button--text {
     width: 85px;
     height: 15px;
@@ -46,6 +49,8 @@
 .excursion--info {
     width: 100vw;
     height: 497px;
+    margin-top: 90px;
+    margin-left: 160px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -55,10 +60,14 @@
 .excursion--info--sochi {
     width: 360px;
     height: 497px;
-    background-image: url(./pictures/Rectangle\ 13.png);
+    background-image: url(./pictures/Rectangle\ 13.png); 
 
 }
 .name--tour {
+    width: 102px;
+    height: 15px;
+    margin-top: 211px;
+    margin-left: 16px;
     color: #FFFFFF;
     font-family: Montserrat;
     font-style: Medium;
@@ -68,4 +77,65 @@
     line-height: 100%; 
     vertical-align: Top;
     text-align: left;
+}
+.type--tour {
+    width: 233px;
+    height: 17px;
+    margin-left: 16px;
+    color: #FFC700;
+    font-family: Montserrat;
+    font-style: Bold;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    line-height: 100%; 
+    vertical-align: Top;
+    text-align: left;
+}
+.time--price {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 130px;
+    height: 15px;
+    margin-left: 16px;
+}
+.about--tour {
+    width: 328px;
+    height: 105px;
+    margin-top: 20px;
+    margin-left: 16px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-style: Medium;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    line-height: 100%; 
+    vertical-align: Top;
+    text-align: left;
+}
+.button--excursion {
+    width: 160px;
+    height: 40px;
+    margin-left: 16px;
+    background-color: #17C1BC;
+    color: #FFFFFF;
+    border-radius: 50cm;
+}
+.excursion--info--horce {
+    width: 360px;
+    height: 497px;
+    background-image: url(./pictures/Rectangle\ 13\ \(1\).png);
+}
+.excursion--info--dragon {
+    width: 360px;
+    height: 497px;
+    background-image: url(./pictures/Rectangle\ 13\ \(2\).png);
+}
+.excursion--info--monastery {
+    width: 360px;
+    height: 497px;
+    background-image: url(./pictures/Rectangle\ 13\ \(3\).png);
+    background-repeat: no-repeat;
 }
