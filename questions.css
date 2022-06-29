@@ -1,0 +1,84 @@
+.content--questions {
+    max-width: calc(1440px + 16px+2);
+    height: 640px;
+    padding: 0 16px;
+    margin: 0 auto;
+    background-image: url(./pictures/Rectangle\ 27.png);
+    background-repeat: no-repeat;
+}
+.questions {
+    width: 560px;
+    height: 640px;
+    background-image: url(./pictures/Rectangle\ 30.png);
+    margin-left: 720px;
+    margin-right: 160px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.head--questions {
+    width: 260px;
+    height: 29px;
+    padding-top: 132px;
+    margin-left: 105px;
+    color: white;
+    font-family: Montserrat;
+    font-style: bold;
+    font-size: 24px;
+    line-height: 29px;
+    line-height: 100%; 
+    font-weight: 700;
+}
+.appeal--questions {
+    width: 209px;
+    height: 17px;
+    margin-left: 105px;
+    margin-top: 30px;
+    color: #FFC700;
+    font-family: Montserrat;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 17px;
+    line-height: 100%; 
+    font-weight: 500;
+
+}
+    .form--appeal {
+        width: 360px;
+        margin-left: 105px;
+        margin-top: 45px;
+    }
+
+    
+    .form--appeal--info {
+        width: 360px;
+        border: none;
+        border-bottom: 1px solid white;
+        background-color: transparent;
+        margin-top: 45px;
+        font-family: Montserrat;
+        font-style: Medium;
+        font-size: 12px;
+        line-height: 15px;
+       line-height: 100%; 
+       font-weight: 500;
+       color: white;
+
+    }
+    .button--form {
+        width: 230px;
+        height: 50px;
+        margin-top: 83px;
+        margin-left: 105px;
+        background-color: #17C1BC;
+        font-family: Montserrat;
+        font-style: Bold;
+        font-size: 14px;
+        line-height: 17px;
+       line-height: 100%; 
+       font-weight: 700;
+       color: white;
+       border-radius: 50cm;
+       border: none;
+    }
+    .button--form:hover {
+        border: 2px solid #0499DD;
+    }

@@ -36,8 +36,9 @@
 }
 .gallery--button {
     border: none;
-    background-color: none;
+    background-color: transparent;
     margin-right: 160px;
+   
 
 }
 .gallery--button:hover {
@@ -55,6 +56,7 @@
     line-height: 100%; 
     vertical-align: Top;
     text-align: left;
+  
 }
 
 
