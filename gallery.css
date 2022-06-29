@@ -18,6 +18,7 @@
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
+    margin-top: 150px;
 }
 .gallery--head {
     width: 311px;
@@ -32,4 +33,62 @@
     font-weight: 700;
     vertical-align: Top;
     text-align: left;
+}
+.gallery--button {
+    border: none;
+    background-color: none;
+    margin-right: 160px;
+
+}
+.gallery--button:hover {
+    border: 3px solid #0499DD;
+}
+.gallery--button--text{
+    width: 85px;
+    height: 15px;
+    color: #282828;
+    font-family: Montserrat;
+    font-style: Medium;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    line-height: 100%; 
+    vertical-align: Top;
+    text-align: left;
+}
+
+
+.gallery--picterus {
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-areas: "pictures1 pictures1 pictures2 pictures3 pictures4"
+                         "pictures5   pictures6 pictures2 pictures8 pictures8"
+                         " pictures5 pictures7 pictures2 pictures8 pictures8" ;
+    margin-top: 90px;
+}
+.mountains--river {
+    grid-area: pictures1;
+}
+.waterfall {
+    grid-area: pictures2;
+}
+.quad bike { 
+    grid-area: pictures3;
+}
+.sunset {
+    grid-area: pictures4;
+}
+.horse {
+    grid-area: pictures5;
+}
+.ruin {
+    grid-area:pictures6;
+}
+.castle {
+    grid-area: pictures7;
+}
+.mountains {
+    grid-area: pictures8;
 }
