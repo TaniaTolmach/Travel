@@ -6,9 +6,10 @@
 }
 
 .content--gallery {
-    max-width: calc(1440px + 16px+2);
+    max-width: calc(1440px + 16px*2);
     padding: 0 16px;
     margin: 0 auto;
+    overflow: hidden;
 }
 .gallery {
     width: 100vw;
