@@ -5,7 +5,7 @@
 }
 
 .content {
-   max-width: calc(1440px + 16px+2);
+   max-width: calc(1440px + 16px*2);
    padding: 0 16px;
    margin: 0 auto;
     
@@ -91,7 +91,7 @@
 .travel--title2 {
     position: absolute;
     left: 720px;
-    bottom: 465px;
+    top: 290px;
 }
 .travel--title3 {
     margin-top: 20px;

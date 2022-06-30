@@ -1,5 +1,5 @@
 .content--excursion {
-    max-width: calc(1440px + 16px+2);
+    max-width: calc(1440px + 16px*2);
     padding: 0 16px;
     margin: 0 auto;
 }
@@ -27,7 +27,7 @@
 }
 .excursion--button {
     border: none;
-    background-color: none;
+    background-color: transparent;
     margin-right: 160px;
 }
 .excursion--button:hover {
@@ -50,12 +50,14 @@
     width: 100vw;
     height: 497px;
     margin-top: 90px;
-    margin-left: 160px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
+}
+.excursion--info:not(:first-child) {
+    margin-left: 20px;
 }
 .excursion--info--sochi {
     width: 360px;
@@ -99,6 +101,17 @@
     width: 130px;
     height: 15px;
     margin-left: 16px;
+}
+.time {
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-style: Medium;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    line-height: 100%; 
+    vertical-align: Top;
+    text-align: left;
 }
 .about--tour {
     width: 328px;
